@@ -1,0 +1,30 @@
+{
+  "name": "kumbhtesting",
+  "version": "1.0.0",
+  "description": "Kumbh UI Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kumbh-SahAIyak/Kumbh-Testing.git"
+  },
+  "author": "Priyanshi Soni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kumbh-SahAIyak/Kumbh-Testing/issues"
+  },
+  "homepage": "https://github.com/Kumbh-SahAIyak/Kumbh-Testing#readme",
+  "dependencies": {
+    "cypress": "^13.16.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "franc": "^6.2.0"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
