@@ -17,12 +17,12 @@
   },
   "homepage": "https://github.com/Kumbh-SahAIyak/Kumbh-Testing#readme",
   "dependencies": {
-    "cypress": "^13.16.0",
     "cypress-file-upload": "^5.0.8",
     "cypress-mochawesome-reporter": "^3.8.2",
     "franc": "^6.2.0"
   },
   "devDependencies": {
+    "cypress": "^14.0.3",
     "mochawesome": "^7.1.3",
     "mochawesome-merge": "^4.3.0",
     "mochawesome-report-generator": "^6.2.0"

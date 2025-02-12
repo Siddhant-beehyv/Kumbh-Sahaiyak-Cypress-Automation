@@ -1,11 +1,19 @@
 export const phone = 'samsung-note9'
-export const kumbhsahayak = 'https://app.dev.ks.samagra.io/'
-export const kumbhsahayakLang = 'https://app.dev.ks.samagra.io/language'
-export const kumbhsahayakLogin = 'https://app.dev.ks.samagra.io/login'
+export const kumbhsahayak = 'https://chatbot.kumbh.up.gov.in/'
+export const kumbhsahayakLang = 'https://chatbot.kumbh.up.gov.in/language'
+export const kumbhsahayakLogin = 'https://chatbot.kumbh.up.gov.in/login'
 export const languageList = [
     { name: 'English', regex: /[A-Za-z]/ },
     { name: 'हिन्दी', regex: /[\u0900-\u097F]/ },
-    { name: 'தமிழ்', regex: /[\u0B80-\u0BFF]/ }
+    { name: 'தமிழ்', regex: /[\u0B80-\u0BFF]/ },
+    {name : 'ਪੰਜਾਬੀ'},
+    {name : 'తెలుగు'},
+    {name : 'मराठी'},
+    {name : 'ગુજરાતી'},
+    {name : 'ಕನ್ನಡ'},
+    {name : 'മലയാളം'},
+    {name : 'বাংলা'},
+    {name : 'اُردُو'}
 ];
 
 export const androidDevices = [
